@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background: #fff;
+}
+.winner{
+    width: 40%;
+    background: #282c34;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 7px;
+}
+
+.winner h1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.winner p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 3%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.winner img{
+    padding-top: 1rem;
+    width: 250px;
+}
+.winner h3{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:850px){
+    .winner{
+        width: 60%;
+        padding: 1rem;
+    }
+    .winner img{
+        width: 120px;
+    }
+    .winner h1{
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding-top: 1rem;
+    }
+    .winner p{
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 3%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .winner h3{
+        font-size: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,259 @@
+
+.overall{
+    background-color:whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+.user h2,p{
+    font-size: 15px;
+}
+
+.side-nav{
+    width: 150px;
+    height: 205vh;
+    position: relative;
+    margin-left: -7.5rem;
+    background-color:  rgba(112, 108, 97, 1.0);
+    
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    transition: width 0.5s;
+}
+.h1{
+    align-items: center;
+}
+.title1{
+    font-size: 39px;
+    margin: auto;
+    padding-top: 10px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    height: 40vh;
+    font-size: 12px;
+    padding: 50px;
+    border-radius:8px;
+    border-left: auto;
+    border-right: auto;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+.user div{
+    display: none;
+}
+.user h2{
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.user-img{
+    width: 60px;
+    border-radius: 50%;
+    margin-top: -9rem;
+    margin-left: -1rem;
+    /* margin: auto; */
+    /* padding-left: 2px; */
+}
+.star-img{
+    width: 20px;
+    display: none;
+}
+ul{
+    list-style: none;
+   
+    padding: 0 15px;
+}
+
+
+ul li{ 
+    margin: 22px 0;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-left: 60px;
+}
+/* li{
+    padding: -20px;
+} */
+ul li img{
+    width: 30px;
+    margin-right: 50px;
+}
+ul li p{
+    white-space: nowrap;
+    display: none;
+    align-items: center;
+    padding-left: 2px;
+    color: #fff;
+}
+ul li p  {
+    white-space: nowrap;
+    display: none;
+    
+}
+.tab-link{
+    text-decoration: none;
+}
+.side-nav:hover{
+    width: 250px;
+}
+.side-nav:hover .user div{
+    display: block;
+}
+.side-nav:hover .user{
+    width: 105%;
+    height: 50px;
+    background: rgba(186, 232, 232, 1.0);
+    backdrop-filter: blur(5px);
+}
+.side-nav:hover .star-img{
+    display: block;
+}
+.side-nav:hover .user-img{
+    margin: 0;
+}
+.side-nav:hover ul li p{
+    display: block;
+    align-items: center;
+}
+.side-nav:hover ul li img{
+    margin-right: 10px;
+}
+.side-nav:hover ul li {
+    justify-content: flex-start;
+}
+.sidebox ul li p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.sidebarbutton{
+    cursor: pointer;
+    color: #fff;
+    align-items: center;
+    width: 100%;
+}
+nav{
+    display: flex;
+}
+ nav .logoimage{
+    width: 70px;
+    height: 70px;
+    
+    cursor: pointer;
+}
+ nav .logoimage :hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
+
+}
+.container{
+    display: flex;    
+}
+.bodycontent{
+    padding-left: 20px;
+}
+.first-box:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
+    /* box-shadow: 0 8px 32px 0 rgba(31,38,135,.37); */
+
+}
+.first-box{
+    display: flex;
+    /* background-color: rgba(194, 27, 124, 0.2); */
+    /* background-color: rgba(194, 194, 191, 0.2); */
+    /* background: transparent; */
+    margin-top: 3rem;
+    transition: 0.5s;
+    background: rgb(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+}
+.text-box h2 {
+    font-size:30px; 
+
+}
+.nothing h4{
+    font-size: 20px;
+
+}
+.election{
+    display: flex;
+    padding: 70px 15px 0px 15px ;
+    justify-content: space-between;
+
+}
+.party1{
+    padding: 15px 15px 15px 15px ;
+    flex-basis: 31%;
+    background-color: rgba(194, 194, 191, 0.5);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    cursor: pointer;
+    background: rgb(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+}
+.party1 button{
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: #35A29F;
+    color:#000;
+    height: 40px;
+    border-radius: 20px 2px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+    padding: 10px 30px;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.election :hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.87);
+}
+.text-box{
+    padding: 40px 20px 25px 40px;
+    background-color: rgba(233, 241, 243, 0.5);
+}
+.text-box img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    justify-content: center;
+}
+.nothing{
+    display: flex;
+}
+.vote-img{
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.selectstate-btn {
+    display: block;
+    margin: 0 auto; /* This will center the button horizontally */
+    padding: 10px 20px;
+    background-color:white; /* Choose your preferred background color */
+    color:black; /* Text color */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .selectstate-btn:hover {
+    background-color: black; /* Choose a darker shade for the hover effect */
+  }
+  .metaid{
+    padding-left: 590px;
+  }

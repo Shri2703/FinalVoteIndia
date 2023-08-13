@@ -1,0 +1,6 @@
+.text-xl{
+    font-size: 1.6rem;
+    text-align: center;
+    border: 2px solid crimson;
+    padding: 1.6rem;
+}
