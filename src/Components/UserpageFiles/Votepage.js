@@ -33,7 +33,7 @@ function Votepage(){
         <div className='overall'> 
            <div className="userbd" style={{
                 width: '100%',
-                height: '215vh',
+                height: '235vh',
                 backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(${userBg})`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
@@ -101,52 +101,52 @@ function Votepage(){
                                             Select Election
                                         </button>
                                     <p><h3 style={{fontWeight:'600'}}>Guide Line </h3>
-                                     <h6><pre>User Authentication:<br />
-                                            Implement secure user authentication using Aadhar number and Metamask ID.
-                                            <br />Ensure proper validation and verification of user identity.<br />
-                                         User Page Interface:<br />
+                                     <h6><pre><h6>User Authentication:<br /></h6>
+                                                Implement secure user authentication using Aadhar number and Metamask ID.
+                                                <br />Ensure proper validation and verification of user identity.<br />
+                                        <h6> User Page Interface:<br /></h6>
 
-                                            Design a user-friendly page with clear options for election selection.
-                                            <br />Provide a visually appealing and responsive layout for seamless user experience.<br />
-                                         Election Selection:<br />
+                                                Design a user-friendly page with clear options for election selection.
+                                                <br />Provide a visually appealing and responsive layout for seamless user experience.<br />
+                                            <h6> Election Selection:<br /></h6>
 
-                                            Include a dropdown or selection box for users to choose their desired election (e.g., Tamil Nadu or other states).
-                                            <br />Allow users to view the list of available elections and select their preferred one.<br />
-                                        "Vote Now" Button:<br />
+                                                Include a dropdown or selection box for users to choose their desired election (e.g., Tamil Nadu or other states).
+                                                <br />Allow users to view the list of available elections and select their preferred one.<br />
+                                            <h6>"Vote Now" Button:<br /></h6>
 
-                                            Add a prominent "Vote Now" button next to the selected election.
+                                                 Add a prominent "Vote Now" button next to the selected election.
                                             <br /> On clicking the button, navigate users to the vote page for the chosen election.<br />
-                                        Vote Page Interface:<br />
+                                            <h6>Vote Page Interface:<br /></h6>
 
-                                            Create a dedicated page for the selected election with a list of parties/candidates.
-                                            <br />Present the parties/candidates with relevant information, symbols, and brief descriptions.<br />
-                                        Party Selection:<br />
+                                                Create a dedicated page for the selected election with a list of parties/candidates.
+                                                <br />Present the parties/candidates with relevant information, symbols, and brief descriptions.<br />
+                                            <h6>Party Selection:<br /></h6>
 
-                                            Enable users to select their preferred party or candidate to cast their vote.
-                                            <br /> Use radio buttons or checkboxes to allow users to choose a single option.<br />
-                                        "Vote" Button:<br />
+                                                Enable users to select their preferred party or candidate to cast their vote.
+                                                <br /> Use radio buttons or checkboxes to allow users to choose a single option.<br />
+                                            <h6>"Vote" Button:<br /></h6>
 
-                                            Place a clear "Vote" button below the party/candidate selection options.
+                                                Place a clear "Vote" button below the party/candidate selection options.
                                             <br />On clicking the button, prompt users to confirm their vote.<br />
-                                        Backend Connection:<br />
+                                            <h6>Backend Connection:<br /></h6>
 
-                                            Establish a secure connection between the frontend and backend to handle voting data.
-                                            <br /> Use appropriate API calls or smart contract interactions to record and store votes.<br />
-                                        Data Privacy and Security:<br />
+                                                Establish a secure connection between the frontend and backend to handle voting data.
+                                                <br /> Use appropriate API calls or smart contract interactions to record and store votes.<br />
+                                            <h6>Data Privacy and Security:<br /></h6>
 
-                                            Implement encryption and privacy measures to protect user data, Aadhar numbers, and voting choices.
-                                            <br />Store sensitive information securely and comply with data protection regulations.<br />
-                                        Error Handling:<br />
+                                                Implement encryption and privacy measures to protect user data, Aadhar numbers, and voting choices.
+                                                <br />Store sensitive information securely and comply with data protection regulations.<br />
+                                            <h6>Error Handling:<br /></h6>
 
-                                            Implement proper error handling and display clear error messages for any issues encountered during the voting process.<br />
-                                        Testing and Optimization:<br />
+                                                 Implement proper error handling and display clear error messages for any issues encountered during the voting process.<br />
+                                            <h6>Testing and Optimization:<br /></h6>
 
-                                            Thoroughly test the user page and voting process to ensure functionality and smooth user interactions.
+                                                Thoroughly test the user page and voting process to ensure functionality and smooth user interactions.
                                             <br />Optimize the page for performance and responsiveness.<br />
-                                         User Support and Feedback:<br />
+                                            <h6> User Support and Feedback:<br /></h6>
 
-                                            Offer user support channels to assist users in case of any difficulties.
-                                            <br /> Collect user feedback to improve the user experience and address any concerns.</pre></h6>
+                                                Offer user support channels to assist users in case of any difficulties.
+                                                <br /> Collect user feedback to improve the user experience and address any concerns.</pre></h6>
                                     </p>
                                 </div>
                         </div>

@@ -162,8 +162,8 @@ function App() {
           {/* <Route path='/Connected'element={<Connected  />}></Route> */}
           <Route path='/MainVoting'element={<MainVoting />}></Route>  
           {/* <Route exact path="/connected" component={Connected} /> */}
-         </Routes>
-         // Inside the return statement of the App component
+        </Routes>
+         
          <Voting
             key={index}
             candidate={candidates} // Replace with the appropriate value

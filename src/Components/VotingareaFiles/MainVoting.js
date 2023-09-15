@@ -9,7 +9,7 @@ import drums from '../Home Files/Images/6.jpg'
 import star from '../Home Files/Images/7.jpg'
 import seeman from '../Home Files/Images/8.jpg'
 import muslim from '../Home Files/Images/9.png'
-//import CountdownTimer from '../Home Files/Timer';
+
 import './MainVoting.css'
 import {Link } from "react-router-dom";
 import React, { useState, useRef, useEffect } from 'react';
